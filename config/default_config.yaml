@@ -1,0 +1,13 @@
+domainNames: # domain names to be resolved
+  - example.com
+ipAddressVersion: ipv4 # ipv4 or ipv6
+dnsProvider: tencent # tencent or aliyun or cloudflare
+credential: # set credentials according to the dns provider
+  tencent:
+    secretId: xx
+    secretKey: xx
+  aliyun:
+    accessKeyId: xx
+    accessKeySecret: xx
+  cloudflare:
+    token: xxx
